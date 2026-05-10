@@ -1,0 +1,17 @@
+Date of entry: 9 May, 2026
+What I' ve worked on: complete the analysis of the main research question
+What problems I encountered: not really any problems
+What I learned: the use of some new pandas functions to do regression analysis
+Which resources did I use: pands website https://pandas.pydata.org/
+
+Date of entry: 
+What I' ve worked on: 
+What problems I encountered: 
+What I learned: 
+Which resources did I use: 
+
+Date of entry: 
+What I' ve worked on: 
+What problems I encountered: 
+What I learned: 
+Which resources did I use: 
