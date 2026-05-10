@@ -4,11 +4,12 @@ What problems I encountered: not really any problems
 What I learned: the use of some new pandas functions to do regression analysis
 Which resources did I use: pands website https://pandas.pydata.org/
 
-Date of entry: 
-What I' ve worked on: 
-What problems I encountered: 
-What I learned: 
-Which resources did I use: 
+Date of entry: 10 May, 2026
+What I' ve worked on: Interactive bubble chart showing the changes of fertility and life expectancy from 1964 to 2013
+What problems I encountered: I cannot use the python callback to show the image
+What I learned: use Bokeh (Javascript callback) to realize interactive visualization
+Which resources did I use: https://www.geeksforgeeks.org/data-visualization/interactive-data-visualization-with-python-and-bokeh/
+https://www.geeksforgeeks.org/python/add-interactive-slider-to-bokeh-plots/
 
 Date of entry: 
 What I' ve worked on: 
