@@ -36,7 +36,7 @@ The expected overall pattern is:
 Main Visualization: Interactive Bubble Scatter Plot by the Gapminder model. By clicking on specific country on the map, you can see the demographic data of this country.
 This will serve as the central figure of the project.
 
-Secondary Visualization 1: Continent Trend Lines
+Secondary Visualization 1: Continental Trend Lines
 The second visualization will show average demographic trends by continent.
 Secondary Visualization 2: Global Convergence Plot
 This figure will show whether cross-country differences increased or decreased over time, helping answer whether global demographic patterns converged.
