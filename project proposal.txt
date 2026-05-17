@@ -55,9 +55,6 @@ Purpose: This view will highlight representative and exceptional country traject
 
 
 6. Tools and Technologies
-Python
-Python will be used for data processing, analysis, and visualization.
-
 Libraries
 *Pandas
 Used for the csv form:

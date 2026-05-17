@@ -2,7 +2,7 @@ Date of entry: 9 May, 2026
 What I' ve worked on: complete the analysis of the main research question
 What problems I encountered: not really any problems
 What I learned: the use of some new pandas functions to do regression analysis
-Which resources did I use: pands website https://pandas.pydata.org/
+Which resources did I use: pandas website https://pandas.pydata.org/
 
 Date of entry: 10 May, 2026
 What I' ve worked on: Interactive bubble chart showing the changes of fertility and life expectancy from 1964 to 2013
@@ -11,8 +11,20 @@ What I learned: use Bokeh (Javascript callback) to realize interactive visualiza
 Which resources did I use: https://www.geeksforgeeks.org/data-visualization/interactive-data-visualization-with-python-and-bokeh/
 https://www.geeksforgeeks.org/python/add-interactive-slider-to-bokeh-plots/
 
-Date of entry: 
-What I' ve worked on: 
-What problems I encountered: 
-What I learned: 
-Which resources did I use: 
+Date of entry: 11 May, 2026
+What I' ve worked on: Complete the interactive bubble chart
+What problems I encountered: the chart does not change with the slider movement
+What I learned: how to use Bokeh
+Which resources did I use: https://docs.bokeh.org/en/latest/docs/user_guide/interaction/legends.html
+
+Date of entry:17 May, 2026
+What I' ve worked on: the subquestion 1 and its visualization
+What problems I encountered: hover tool of the bar plot of plotly
+What I learned: plotly library
+Which resources did I use:
+
+Date of entry:
+What I' ve worked on:
+What problems I encountered:
+What I learned:
+Which resources did I use:
