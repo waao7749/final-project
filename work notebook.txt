@@ -17,11 +17,12 @@ What problems I encountered: the chart does not change with the slider movement
 What I learned: how to use Bokeh
 Which resources did I use: https://docs.bokeh.org/en/latest/docs/user_guide/interaction/legends.html
 
-Date of entry:17 May, 2026
+Date of entry: 17 May, 2026
 What I' ve worked on: the subquestion 1 and its visualization
-What problems I encountered: hover tool of the bar plot of plotly
-What I learned: plotly library
-Which resources did I use:
+What problems I encountered: the data does not have ISO-3 country code for map projection
+What I learned: drawing world map for visualization by plotly, change country code using pycountry library
+Which resources did I use: https://plotly.com/python-api-reference/generated/plotly.express.choropleth.html?utm_source=chatgpt.com
+                           https://pypi.org/project/pycountry/
 
 Date of entry:
 What I' ve worked on:

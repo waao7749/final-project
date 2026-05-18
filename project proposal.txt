@@ -1,27 +1,19 @@
 Project Proposal: Visualizing Life Expectancy and Fertility (1964–2013)
 Project Title:
-From Large Families to Longer Lives: Visualizing the Global Relationship Between Fertility and Life Expectancy (1964–2013)
+From Large Families to Longer Lives: Global Relationship Between Fertility and Life Expectancy (1964–2013)
 
 1. Introduction
 This project aims to explore how life expectancy and fertility changed between 1964 and 2013 across countries and continents. Rather than only examining whether these variables changed, this project focuses on how their relationship evolved over time and whether countries followed similar or divergent development paths.
 Using an interactive data visualization, this project will examine global demographic change and allow users to explore how countries moved from patterns of high fertility and low life expectancy toward lower fertility and longer lives.
 
 2. Research Question
-Main Research Question:
-How did the relationship between fertility and life expectancy change across countries and continents between 1964 and 2013?
+Main Research Question:How did the relationship between fertility and life expectancy change across countries and continents between 1964 and 2013?
 This question focuses on both temporal change and structural change. It examines not only how fertility and life expectancy changed independently, but also how the relationship between the two evolved over time.
 
-3. Sub-Questions
-Sub-question 1: Did countries become more similar over time in terms of fertility and life expectancy?
-This question investigates whether differences between countries decreased over time, indicating global convergence in demographic development.
+Sub-question 1: Which continent experienced the fastest overall demographic transition between 1964 and 2013?
+Sub-question 2: When did countries experience their demographic transition?
 
-Sub-question 2: Which continents experienced the fastest demographic transition between 1964 and 2013?
-This question compares regions to determine which continents experienced the most rapid improvements in life expectancy and the strongest decline in fertility.
-
-Sub-question 3: Which countries deviated from the global trend, and what might explain these deviations?
-This question identifies countries that do not follow the general pattern and investigates possible explanations such as war, disease, economic crisis, or political instability.
-
-4. Expected Findings
+3. Expected Findings
 The project is based on the expectation that most countries moved from a demographic pattern of high fertility and low life expectancy toward low fertility and high life expectancy between 1964 and 2013.
 However, this transition is not expected to be uniform. Some regions likely experienced faster development than others, and certain countries may show temporary reversals or deviations due to major crises such as conflict, famine, or epidemics.
 
@@ -32,32 +24,20 @@ The expected overall pattern is:
 * Countries became more similar overall, though regional inequalities remained
 * Some countries significantly deviated from the general trend
 
-5. Visualization Design
-Main Visualization: Interactive Bubble Scatter Plot by the Gapminder model. By clicking on specific country on the map, you can see the demographic data of this country.
+4. Main Visualization Design
+Main Visualization: Interactive Bubble Scatter Plot by Bokeh.
 This will serve as the central figure of the project.
 
-Secondary Visualization 1: Continental Trend Lines
-The second visualization will show average demographic trends by continent.
-Secondary Visualization 2: Global Convergence Plot
-This figure will show whether cross-country differences increased or decreased over time, helping answer whether global demographic patterns converged.
+Sub-visualization 1: Bar plot by Plotly
+Show which continent experienced the fastest overall demographic transition between 1964 and 2013.
 
-Third visualization: whether countries became more similar over time.
-This figure will show whether cross-country differences increased or decreased over time, helping answer whether global demographic patterns converged.
+Sub-visualization 2: World map by Plotly
+By clicking on a country on the map you can see the data of the country, and countries are projected in different color for different year range.
 
-Visualization 3: Country Trajectories
-A supplementary visualization will trace the paths of selected countries over time.
-* China
-* Netherlands
-* USA
-* Nigeria
-* Australia
-Purpose: This view will highlight representative and exceptional country trajectories and help explain deviations from the broader global trend.
-
-
-6. Tools and Technologies
+5. Tools and Technologies
 Libraries
 *Pandas
-Used for the csv form:
+Used for the csv form
 Data cleaning
 Aggregation
 Grouping
@@ -69,15 +49,12 @@ Numerical operations
 Statistical calculations
 Scaling bubble sizes
 
-*Bokeh
+*Bokeh & Plotly
 Used for:
+Visualization
 Interactive plotting
 Sliders
 Hover tools
 Filtering
 Layout design
 
-SciPy (maybe)
-Used for:
-* Correlation analysis
-* Basic statistical modeling
