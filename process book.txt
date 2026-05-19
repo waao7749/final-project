@@ -14,7 +14,7 @@ https://www.geeksforgeeks.org/python/add-interactive-slider-to-bokeh-plots/
 Date of entry: 11 May, 2026
 What I' ve worked on: Complete the interactive bubble chart
 What problems I encountered: the chart does not change with the slider movement
-What I learned: how to use Bokeh
+What I learned: how to use Bokeh to draw interactive charts
 Which resources did I use: https://docs.bokeh.org/en/latest/docs/user_guide/interaction/legends.html
 
 Date of entry: 17 May, 2026
@@ -30,8 +30,8 @@ What problems I encountered: data merging
 What I learned: complex dataset merging through pandas
 Which resources did I use: https://pandas.pydata.org/
 
-Date of entry:
-What I' ve worked on:
-What problems I encountered:
-What I learned:
-Which resources did I use:
+Date of entry: 19 May, 2026
+What I' ve worked on: some little bugs
+What problems I encountered: no
+What I learned: no
+Which resources did I use: tutors in class, thanks a lot :)

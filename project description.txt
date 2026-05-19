@@ -1,0 +1,52 @@
+Project Description
+
+Title: From Large Families to Longer Lives: Global Relationship Between Fertility and Life Expectancy (1964–2013)
+This project investigates how demographic conditions changed across countries between 1964 and 2013, focusing on the relationship between fertility rates and life expectancy. The project explores the global demographic transition process, where countries gradually move from high fertility and low life expectancy toward low fertility and high life expectancy as economic and social development progresses.
+
+• The main research question is:
+How did the relationship between fertility and life expectancy evolve across countries and continents between 1964 and 2013, and to what extent did countries converge toward lower fertility and higher life expectancy?
+To answer this question, the project first examines global trends over time by calculating yearly averages of fertility and life expectancy. Correlation analysis is then used to measure the relationship between the two variables both overall and year by year. The results show a consistently strong negative relationship: countries with lower fertility generally had higher life expectancy, while countries with high fertility tended to have lower life expectancy.
+The project then studies whether countries became more similar over time. Standard deviation analysis is used to measure cross-country dispersion in fertility and life expectancy. The findings suggest a convergence process, especially for fertility rates, as more countries moved toward lower fertility levels during the late twentieth century.
+
+• Several sub-questions are explored in the project:
+1. Which continent experienced the fastest demographic transition?
+To compare regions, the project calculates the overall movement of each continent in the fertility–life expectancy space between 1964 and 2013. A transition distance indicator is constructed by combining changes in fertility and life expectancy. The analysis finds that South Asia experienced the fastest demographic transition, showing the largest combined improvement in life expectancy and decline in fertility.
+
+2. When did countries complete the demographic transition?
+The project defines demographic transition completion as the point where a country reaches both
+  • Fertility rate ≤ 2.1 (replacement level fertility)
+  • Life expectancy ≥ 60 years (older people threshold according to the United Nations)
+for 5 consecutive years to exclude the influence of temporary fluctuations.
+Using this threshold, the project identifies the transition year for each country and visualizes the results on a world choropleth map. The findings show strong regional differences. Europe, North America, and Oceania generally completed the transition earlier, while many African countries had not completed it by 2013.
+
+3. What was the typical income level when countries completed the transition?
+The project further investigates the economic conditions associated with demographic transition by linking transition years with Gross National Income (GNI) per capita data from the World Bank. The analysis shows that countries completed demographic transition at very different income levels, although most transitions occurred before countries became high-income economies.
+
+More detailed analyses of outcomes can be seen in the Jupyter Notebook.
+
+• Data Used
+The project mainly uses two datasets:
+1. Gapminder Dataset
+   Source: https://www.gapminder.org/
+   Used for trend analysis, correlation analysis, regional comparison, and visualization of the main research question.
+
+2. World Bank GNI per Capita Dataset
+   Source: [World Bank Data](https://data.worldbank.org?utm_source=chatgpt.com)
+   Used to analyze the economic level at which countries completed demographic transition.
+
+• Methods and Visualization
+The project uses Python for data cleaning, analysis, and visualization. Key libraries include:
+    • pandas
+    • numpy
+    • plotly
+    • bokeh
+
+The project includes:
+    • Time-series analysis
+    • Correlation analysis
+    • Standard deviation/convergence analysis
+    • Interactive bubble charts
+    • Choropleth world maps
+    • Regional comparison bar charts
+
+Interactive visualizations are used to show how countries moved through the demographic transition over time in the fertility–life expectancy coordinate system. Overall, the project combines statistical analysis with visualization techniques to better understand long-term global demographic change.
