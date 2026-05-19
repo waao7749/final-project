@@ -12,6 +12,7 @@ This question focuses on both temporal change and structural change. It examines
 
 Sub-question 1: Which continent experienced the fastest overall demographic transition between 1964 and 2013?
 Sub-question 2: When did countries experience their demographic transition?
+Sub-question 3: What was the typical GNI per capita when countries completed the demographic transition?
 
 3. Expected Findings
 The project is based on the expectation that most countries moved from a demographic pattern of high fertility and low life expectancy toward low fertility and high life expectancy between 1964 and 2013.
@@ -24,7 +25,7 @@ The expected overall pattern is:
 * Countries became more similar overall, though regional inequalities remained
 * Some countries significantly deviated from the general trend
 
-4. Main Visualization Design
+4. Visualization Design
 Main Visualization: Interactive Bubble Scatter Plot by Bokeh.
 This will serve as the central figure of the project.
 
@@ -33,6 +34,9 @@ Show which continent experienced the fastest overall demographic transition betw
 
 Sub-visualization 2: World map by Plotly
 By clicking on a country on the map you can see the data of the country, and countries are projected in different color for different year range.
+
+Sub-visualization 3: Bar plot by Plotly
+Show GNI of the transition year of countries in ranges.
 
 5. Tools and Technologies
 Libraries

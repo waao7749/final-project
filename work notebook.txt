@@ -24,6 +24,12 @@ What I learned: drawing world map for visualization by plotly, change country co
 Which resources did I use: https://plotly.com/python-api-reference/generated/plotly.express.choropleth.html?utm_source=chatgpt.com
                            https://pypi.org/project/pycountry/
 
+Date of entry: 18 May, 2026
+What I' ve worked on: subquestion 2 and 3
+What problems I encountered: data merging
+What I learned: complex dataset merging through pandas
+Which resources did I use: https://pandas.pydata.org/
+
 Date of entry:
 What I' ve worked on:
 What problems I encountered:
